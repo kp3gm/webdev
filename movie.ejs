@@ -1,0 +1,9 @@
+<h1> Movies Page</h1>
+<head>  <% movies.forEach(function(movie) { %>
+    <li>
+      <strong><%= movie.name %></strong><br>
+      actors: <%= movie.actors %><br>
+      Director: <%= movie.director %>
+    </li>
+  <% }); %>
+</head>
